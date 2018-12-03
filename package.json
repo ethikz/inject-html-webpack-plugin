@@ -7,6 +7,9 @@
     "precommit": "lint-staged",
     "test": "mocha test"
   },
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
   "lint-staged": {
     "*.js": [
       "eslint index.js",
