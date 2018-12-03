@@ -1,6 +1,6 @@
-inject-html-webpack-plugin [![Build Status](https://travis-ci.org/ethikz/inject-html-webpack-plugin.svg?branch=master)](https://travis-ci.org/ethikz/inject-html-webpack-plugin) [![npm version](https://badge.fury.io/js/@ethikz/inject-html-webpack-plugin.svg)](https://badge.fury.io/js/@ethikz/inject-html-webpack-plugin)
+inject-html-webpack-plugin [![Build Status](https://travis-ci.org/ethikz/inject-html-webpack-plugin.svg?branch=master)](https://travis-ci.org/ethikz/inject-html-webpack-plugin) [![npm version](https://badge.fury.io/js/ethikz/inject-html-webpack-plugin.svg)](https://badge.fury.io/js/ethikz/inject-html-webpack-plugin)
 ===
-[![NPM](https://nodei.co/npm/@ethikz/inject-html-webpack-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@ethikz/inject-html-webpack-plugin/)
+[![NPM](https://nodei.co/npm/ethikz/inject-html-webpack-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ethikz/inject-html-webpack-plugin/)
 
 Inspired by [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin), this is a simple and efficient Webpack plugin that injects script and style tags into your html.
 
