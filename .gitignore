@@ -1,8 +1,7 @@
 node_modules/
-example/node_modules/
-example/yarn.lock
-example/dist/
+dist/
 .vscode/
 __tests__/fixtures/dist/
 package-lock.json
 yarn.lock
+.DS_Store
