@@ -3,7 +3,7 @@
 
 const path = require( 'path' );
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
-const packageConfig = require( '../../package.json' );
+const packageConfig = require( '../package.json' );
 
 exports.assetsPath = function( _path ) {
   return path.posix.join( '', _path );

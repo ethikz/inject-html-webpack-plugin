@@ -89,7 +89,7 @@ module.exports = {
   },
   plugins: [
     new StylelintPlugin({
-      configFile: resolve( '../.stylelintrc.js' ),
+      configFile: resolve( './.stylelintrc.js' ),
       files: [
         'src/**/*.scss'
       ],
