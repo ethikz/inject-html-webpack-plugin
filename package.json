@@ -1,48 +1,61 @@
 {
-  "name": "inject-html-webpack-plugin",
-  "version": "0.0.39",
-  "description": "inject html when webpack compiling",
-  "main": "index.js",
-  "scripts": {
-    "precommit": "lint-staged",
-    "test": "mocha test"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint index.js",
-      "git add"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ali322/inject-html-webpack-plugin.git"
-  },
-  "keywords": [
-    "webpack",
-    "html"
-  ],
-  "author": "alichen",
-  "license": "MIT",
+  "name": "@ethikz/inject-html-webpack-plugin",
+  "description": "inject assets into html when webpack compiles",
+  "version": "1.0.0",
+  "author": "Josh Christensen <eth1kz.j3@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ali322/inject-html-webpack-plugin/issues"
-  },
-  "homepage": "https://github.com/ali322/inject-html-webpack-plugin#readme",
-  "devDependencies": {
-    "chai": "^4.0.2",
-    "debug": "^3.1.0",
-    "eslint": "^4.19.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.5",
-    "mocha": "^3.4.2",
-    "webpack": "^2.6.1"
+    "url": "https://github.com/ethikz/inject-html-webpack-plugin/issues"
   },
   "dependencies": {
-    "fs-extra": "^1.0.0",
-    "lodash": "^4.17.5"
+    "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime": "^7.1.5",
+    "@ethikz/eslint-config": "^1.0.0",
+    "@ethikz/stylelint-config": "^1.0.1",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-import": "^2.14.0",
+    "lint-staged": "^8.0.5",
+    "mocha": "^5.2.0",
+    "webpack": "^4.17.1"
+  },
+  "homepage": "https://github.com/ethikz/inject-html-webpack-plugin",
+  "keywords": [
+    "html",
+    "webpack"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint **/*.js"
+    ]
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethikz/inject-html-webpack-plugin.git"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "./node_modules/.bin/mocha --require @babel/polyfill --require @babel/register test"
   }
 }
