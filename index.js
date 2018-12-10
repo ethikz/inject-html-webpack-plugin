@@ -142,7 +142,7 @@ class InjectHtmlWebpackPlugin {
       if ( more ) {
         if ( Array.isArray( more.js ) ) {
           for ( let i = 0; i < more.js.length; i += 1 ) {
-            jsLabel.unshift( `<script src="${more.js[i]}"></script>` );
+            jsLabel.unshift( `<script type="text/javascript" src="${more.js[i]}"></script>` );
           }
         }
 
