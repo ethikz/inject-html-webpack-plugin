@@ -1,7 +1,7 @@
 {
   "name": "@ethikz/inject-html-webpack-plugin",
   "description": "inject assets into html when webpack compiles",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Josh Christensen <eth1kz.j3@gmail.com>",
   "bugs": {
     "url": "https://github.com/ethikz/inject-html-webpack-plugin/issues"
