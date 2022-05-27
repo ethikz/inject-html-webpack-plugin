@@ -7,7 +7,7 @@
     "url": "https://github.com/ethikz/inject-html-webpack-plugin/issues"
   },
   "dependencies": {
-    "fs-extra": "^7.0.1",
+    "fs-extra": "^8.0.0",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
